@@ -1,13 +1,10 @@
-import { useState } from 'react';
+import Menu from './components/Menu/Menu';
 
 function App() {
 
-  const [time, setTime] = useState('');
-  // const [interval, setTime] = useState('null');
-
   return (
     <div>
-
+      <Menu />
     </div>
   );
 }
